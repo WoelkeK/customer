@@ -5,7 +5,7 @@ create table bank_details
     bank_name      varchar(50)  not null,
     notes          varchar(255),
     notesEnabled   boolean,
-    customer_id    bigint       not null,
-    constraint fk_bank_details_customer foreign key (customer_id) references customer (id)
+    company_id     bigint       not null,
+    constraint fk_bank_details_company foreign key (company_id) references company (id)
 
 );

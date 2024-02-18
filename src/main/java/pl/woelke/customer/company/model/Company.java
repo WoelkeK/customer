@@ -1,4 +1,4 @@
-package pl.woelke.customer.model;
+package pl.woelke.customer.company.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -9,7 +9,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-public class Customer {
+public class Company {
 
     private String name;
     private String postCode;
